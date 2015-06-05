@@ -16,9 +16,9 @@
   - [playerInstance](#playerinstance)
 
 - [方法](#方法)
-  - [play](#play-opts-callback)
-  - [playByFlash](#playbyflash-url-callback)
-  - [playByHtml5](#playby5tml5-url-callback)
+  - [play](#play-opts-callback-)
+  - [playByFlash](#playbyflash-url-callback-)
+  - [playByHtml5](#playby5tml5-url-callback-)
 
 
 ## 属性
