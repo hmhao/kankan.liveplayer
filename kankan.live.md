@@ -7,8 +7,8 @@
 ## 索引
 
 - [属性](#属性)
-  - [ENGINE_FLASH](#engineflash)
-  - [ENGINE_HTML5](#enginehtml5)
+  - [ENGINE_FLASH](#engine_flash)
+  - [ENGINE_HTML5](#engine_html5)
   - [url](#url)
   - [autoplay](#autoplay)
   - [danmu](#danmu)
@@ -18,7 +18,7 @@
 - [方法](#方法)
   - [play](#play-opts-callback-)
   - [playByFlash](#playbyflash-url-callback-)
-  - [playByHtml5](#playby5tml5-url-callback-)
+  - [playByHtml5](#playbyhtml5-url-callback-)
 
 
 ## 属性
