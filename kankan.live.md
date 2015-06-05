@@ -40,14 +40,18 @@
 
 ### autoplay
 > 视频自动播放
+>
 > 对于android手机自带的浏览器，这属性不一定有效
+>
 > live.autoplay = true | false；默认值为true
 
 ---
 
 ### danmu
 > 使用弹幕控件
+>
 > 该属性仅使用flash引擎播放视频时有效
+>
 > live.danmu= true | false；默认值为false
 
 ---
@@ -59,7 +63,6 @@
 
 ### playerInstance
 > 播放器实例
-> 
 
 ---
 
@@ -86,7 +89,7 @@
 ---
 
 ### playByFlash( url, callback )
-> 使用flash播放视频，实际调用了[play](#play-opts-callback)方法
+> 使用flash播放视频，实际调用了[play](#play-opts-callback-)方法
 > 
 > Example: 
 > ```
@@ -95,13 +98,13 @@
 > 
 
 ##### 参数: 
-* __url__ `Object` 播放地址
+* __url__ `String` 播放地址
 * __callback__ `Function` 开始播放后的回调函数
 
 ---
 
 ### playByHTML5( url, callback )
-> 使用html5播放视频，实际调用了[play](#play-opts-callback)方法
+> 使用html5播放视频，实际调用了[play](#play-opts-callback-)方法
 > 
 > Example: 
 > ```
@@ -110,7 +113,7 @@
 > 
 
 ##### 参数: 
-* __url__ `Object` 播放地址
+* __url__ `String` 播放地址
 * __callback__ `Function` 开始播放后的回调函数
 
 ---
